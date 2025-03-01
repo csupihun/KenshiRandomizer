@@ -1,0 +1,80 @@
+.main {
+}
+
+.top {
+    font-family: mailart;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    height: 60vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-auto-rows: auto;
+}
+
+.result {
+    display: inline-block;
+    width: 350px;
+    height: 125px;
+}
+
+.reload-image {
+    width: 5vh;
+    height: 5vh;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.big-reload {
+    width: 6vh;
+    height: 6vh;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.label {
+    display: inline-block;
+    top: -1vh;
+    position: relative;
+    font-size: 32px;
+}
+
+body {
+    background-image: url('../bg.jpg');
+    background-size: cover;
+    font-family: roboto;
+    color: white;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.text {
+    font-size: 24px;
+}
+
+.desc {
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: mailart;
+    src: url('MailartRubberstamp-Regular.otf');
+}
+
+p {
+    margin: 10px;
+}
