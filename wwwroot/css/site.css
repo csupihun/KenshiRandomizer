@@ -6,16 +6,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin:80px;
 }
 
 .grid {
-    height: 60vh;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
     grid-auto-rows: auto;
+    gap: 100px
 }
 
 .result {
@@ -49,9 +51,19 @@
 body {
     background-image: url('../bg.jpg');
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: roboto;
     color: white;
+    margin: 25px;
 }
+
+/*@media (max-width: 768px) {
+    body {
+        height: 100vh;
+    }
+}*/
 
 h1 {
     font-size: 64px;
